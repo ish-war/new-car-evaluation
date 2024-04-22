@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Car Evaluation</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+
+<img src=
+"https://images7.alphacoders.com/114/thumb-1920-1147538.png"
+         alt="bmw logo image", width="400", height="150", style="float:left">
+
+
+<style>
+body {
+  background-image: url("https://wallpapercave.com/wp/wp2526840.jpg");
+  background-position: 100%;
+  background-size: cover;
+}
+</style>
+
+<div class="login">
+	<h1>Predict Car Ratings</h1>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+    	<input type="text" name="buying" placeholder="buying" required="required" />
+        <input type="text" name="maintainance" placeholder="maintainance" required="required" />
+		<input type="text" name="doors" placeholder="doors" required="required" />
+        <input type="text" name="persons" placeholder="persons" required="required" />
+        <input type="text" name="lug_storage" placeholder="lug_storage" required="required" />
+        <input type="text" name="safety" placeholder="safety" required="required" />
+
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+   <br>
+   <br>
+   {{ prediction_text }}
+
+ </div>
+
+
+</body>
+</html>
