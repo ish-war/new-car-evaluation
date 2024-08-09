@@ -27,3 +27,6 @@ Web Application Development
 Conclusion
 
 The decision tree classifier model demonstrates outstanding performance with perfect scores across all metrics, suggesting optimal and error-free predictions for the given binary classification task. The model is highly effective for evaluating car suitability based on the attributes provided. The developed web application facilitates easy interaction with the model, making it accessible for users to evaluate car suitability seamlessly.
+
+![image](https://github.com/user-attachments/assets/b0ab49d8-3a47-4806-b224-201bbafa0c5f)
+
