@@ -1,5 +1,9 @@
 # new-car-evaluation
 
+## Web Development Image
+
+![image](https://github.com/user-attachments/assets/b0ab49d8-3a47-4806-b224-201bbafa0c5f)
+
 ## Objective
 
 Develop a machine learning model to accurately predict the suitability of a car based on its various attributes. This typically involves classifying cars into different categories such as "acceptable," "good," "very good," or "unacceptable" based on criteria like price, maintenance cost, number of doors, capacity, safety features, etc. This model aims to assist users in making informed decisions when evaluating different cars for potential purchase.
@@ -28,7 +32,17 @@ The model performs well in predicting car evaluations based on the provided data
 
 The decision tree classifier model demonstrates outstanding performance with perfect scores across all metrics, suggesting optimal and error-free predictions for the given binary classification task. The model is highly effective for evaluating car suitability based on the attributes provided. The developed web application facilitates easy interaction with the model, making it accessible for users to evaluate car suitability seamlessly.
 
-## Web Development Image
+## EDA 
 
-![image](https://github.com/user-attachments/assets/b0ab49d8-3a47-4806-b224-201bbafa0c5f)
+### Acceptance rate for different buying prices
+![image](https://github.com/user-attachments/assets/378ce71b-ad26-4510-b49a-ad8b493621cd)
+
+### Acceptance rate of maintainance cost distribution
+![image](https://github.com/user-attachments/assets/0d8a16d9-fcf5-4d88-bdbb-1046866dcf3e)
+
+### Acceptance rate of safety levels 
+![image](https://github.com/user-attachments/assets/6080bb87-025b-4c3d-af9b-1b2ea086f265)
+
+
+
 
